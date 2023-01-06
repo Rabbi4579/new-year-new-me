@@ -24,6 +24,22 @@ a {
 
 main {
     max-width: 1140px;
+    margin: 0 auto
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+
+}
+
+.section-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 /* --------common css end-------- */
@@ -36,12 +52,14 @@ main {
     position: relative;
     margin-bottom: 130px;
 }
-.banner_content{
+
+.banner_content {
     width: 500px;
     text-align: right;
     margin-left: auto;
     margin-right: 150px;
 }
+
 .banner-title {
     color: #FFFFFF;
     font-size: 65px;
@@ -49,12 +67,36 @@ main {
     line-height: 76px;
     margin-bottom: 8px;
 }
-.banner-description{
+
+.banner-description {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 30px;
-    
 
+
+}
+
+/* ---------my failure-------- */
+.failure-container{
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+.sec-title{
+    margin-bottom: 24px;
+}
+.failure-content{
+    padding-right: 70px;
+}
+.failure-content ul{
+    margin-top: 15px;
+}
+.failure-content ul li{
+    margin-bottom: 8px;
+}
+.failure-content ul li i{
+    margin-right: 10px;
+    color: #16D887;
 }
