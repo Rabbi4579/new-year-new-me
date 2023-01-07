@@ -90,7 +90,8 @@ main {
 }
 
 .failure-content {
-    padding-right: 70px;
+    padding: 80px 70px 0 0;
+
 }
 
 .failure-content ul {
@@ -207,30 +208,35 @@ main {
     font-weight: 700;
     font-size: 45px;
 }
-.footer-describe{
+
+.footer-describe {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 15px;
 }
+
 .footer-sub-title {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 25px;
     margin-bottom: 30px;
 }
-.footer-address{
+
+.footer-address {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 15px;
 
 }
-.social-icon img{
+
+.social-icon img {
     margin-right: 20px;
     margin-top: 15px;
 }
+
 .footer-subscribe input {
     height: 64px;
     width: 325px;
@@ -241,9 +247,10 @@ main {
     font-size: 18px;
     padding-left: 10px;
     border-radius: 5px;
-   
+
 }
-.subscribe-btn{
+
+.subscribe-btn {
     margin-top: 15px;
     color: #F15B22;
     padding: 20px 35px;
