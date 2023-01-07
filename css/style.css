@@ -125,8 +125,37 @@ main {
     font-weight: 500;
     font-size: 25px;
 }
-.plan-container{
+
+.plan-container {
     display: flex;
     gap: 85px;
     margin-top: 50px;
+}
+
+
+/* ---------positive mindset------- */
+#positive-mindset {
+    margin-bottom: 130px;
+}
+
+.positive-mindset-items {
+    background-image: linear-gradient(to right, rgb(0, 95, 172), rgba(0, 95, 172, 0)), url(../images/watch.png);
+    background-size: cover;
+    background-position: center;
+    padding: 58px 0;
+    padding-left: 65px;
+    border-radius: 8px;
+    border: 2px solid #FFFFFF;
+}
+
+.positive-mindset-items:hover {
+    border-color: #45a2ee;
+    border-radius: 10px;
+}
+
+.positive-title {
+    color: #FFFFFF;
+    line-height: 47px;
+    padding-right: 600px;
+    margin-bottom: 24px;
 }
