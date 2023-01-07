@@ -252,6 +252,12 @@ main {
 
 .subscribe-btn {
     margin-top: 15px;
-    color: #F15B22;
+    background: #005FAC;
     padding: 20px 35px;
+    color: #FFFFFF;
+}
+
+input::placeholder{
+    color: #F3F3F3;
+
 }
