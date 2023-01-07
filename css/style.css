@@ -159,3 +159,31 @@ main {
     padding-right: 600px;
     margin-bottom: 24px;
 }
+
+/* -------latest product styles-------- */
+#latest-product {
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.product-items img {
+    width: 100%;
+}
+
+.product-container {
+    display: flex;
+    gap: 18px;
+    margin-top: 50px;
+}
+
+.product-description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.product-title {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
