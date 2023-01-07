@@ -191,7 +191,7 @@ main {
 /* -----------footer part------ */
 .footer {
     background: #151414;
-    padding: 130px 0;
+    padding: 110px 0;
 }
 
 .footer-contianer {
@@ -212,11 +212,39 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    padding-right: 185px;
     margin-bottom: 15px;
 }
 .footer-sub-title {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 25px;
+    margin-bottom: 30px;
+}
+.footer-address{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+.social-icon img{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.footer-subscribe input {
+    height: 64px;
+    width: 325px;
+    border: 1px solid #FFFFFF;
+    background-color: #151414;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 5px;
+   
+}
+.subscribe-btn{
+    margin-top: 15px;
+    color: #F15B22;
+    padding: 20px 35px;
 }
