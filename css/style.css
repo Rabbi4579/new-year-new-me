@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
-.primary_btn {
+.primary-btn {
     background: #FFFFFF;
     border-radius: 5px;
     padding: 20px 25px;
@@ -53,7 +53,7 @@ main {
     margin-bottom: 130px;
 }
 
-.banner_content {
+.banner-content {
     width: 500px;
     text-align: right;
     margin-left: auto;
@@ -78,25 +78,55 @@ main {
 
 }
 
-/* ---------my failure-------- */
-.failure-container{
+/* ---------my failure styles-------- */
+.failure-container {
     display: flex;
     gap: 85px;
     align-items: center;
 }
-.sec-title{
+
+.sec-title {
     margin-bottom: 24px;
 }
-.failure-content{
+
+.failure-content {
     padding-right: 70px;
 }
-.failure-content ul{
+
+.failure-content ul {
     margin-top: 15px;
 }
-.failure-content ul li{
+
+.failure-content ul li {
     margin-bottom: 8px;
 }
-.failure-content ul li i{
+
+.failure-content ul li i {
     margin-right: 10px;
     color: #16D887;
+}
+
+/* --------my plan styles-------- */
+
+#my-plan {
+    margin: 130px 0;
+    text-align: center;
+}
+
+.plan-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.plan-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+.plan-container{
+    display: flex;
+    gap: 85px;
+    margin-top: 50px;
 }
