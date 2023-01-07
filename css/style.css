@@ -187,3 +187,36 @@ main {
     font-weight: 500;
     font-size: 25px;
 }
+
+/* -----------footer part------ */
+.footer {
+    background: #151414;
+    padding: 130px 0;
+}
+
+.footer-contianer {
+    display: flex;
+    gap: 330px;
+    max-width: 1140px;
+    margin: 0 auto;
+    color: wheat;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+.footer-describe{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 185px;
+    margin-bottom: 15px;
+}
+.footer-sub-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
